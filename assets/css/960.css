@@ -1,19 +1,20 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/* base */
-
-@media screen and (max-width: 736px) {
+/*base*/
+/*layout*/
+@media screen and (max-width: 960px) {
 
   .container {
     width: 100%;
   }
 
 }
+/*modules*/
 
-/* section */
+  /* ****** Row ******** */ 
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 960px) {
 
   .row {
     display: flex;
@@ -54,103 +55,103 @@
       align-items: flex-end;
     }
 
-    .row > .imp-mobile {
+    .row > .imp-narrower {
       order: -1;
     }
 
-    .row > .col-1-mobile {
+    .row > .col-1-narrower {
       width: 8.3333333333%;
     }
 
-    .row > .off-1-mobile {
+    .row > .off-1-narrower {
       margin-left: 8.3333333333%;
     }
 
-    .row > .col-2-mobile {
+    .row > .col-2-narrower {
       width: 16.6666666667%;
     }
 
-    .row > .off-2-mobile {
+    .row > .off-2-narrower {
       margin-left: 16.6666666667%;
     }
 
-    .row > .col-3-mobile {
+    .row > .col-3-narrower {
       width: 25%;
     }
 
-    .row > .off-3-mobile {
+    .row > .off-3-narrower {
       margin-left: 25%;
     }
 
-    .row > .col-4-mobile {
+    .row > .col-4-narrower {
       width: 33.3333333333%;
     }
 
-    .row > .off-4-mobile {
+    .row > .off-4-narrower {
       margin-left: 33.3333333333%;
     }
 
-    .row > .col-5-mobile {
+    .row > .col-5-narrower {
       width: 41.6666666667%;
     }
 
-    .row > .off-5-mobile {
+    .row > .off-5-narrower {
       margin-left: 41.6666666667%;
     }
 
-    .row > .col-6-mobile {
+    .row > .col-6-narrower {
       width: 50%;
     }
 
-    .row > .off-6-mobile {
+    .row > .off-6-narrower {
       margin-left: 50%;
     }
 
-    .row > .col-7-mobile {
+    .row > .col-7-narrower {
       width: 58.3333333333%;
     }
 
-    .row > .off-7-mobile {
+    .row > .off-7-narrower {
       margin-left: 58.3333333333%;
     }
 
-    .row > .col-8-mobile {
+    .row > .col-8-narrower {
       width: 66.6666666667%;
     }
 
-    .row > .off-8-mobile {
+    .row > .off-8-narrower {
       margin-left: 66.6666666667%;
     }
 
-    .row > .col-9-mobile {
+    .row > .col-9-narrower {
       width: 75%;
     }
 
-    .row > .off-9-mobile {
+    .row > .off-9-narrower {
       margin-left: 75%;
     }
 
-    .row > .col-10-mobile {
+    .row > .col-10-narrower {
       width: 83.3333333333%;
     }
 
-    .row > .off-10-mobile {
+    .row > .off-10-narrower {
       margin-left: 83.3333333333%;
     }
 
-    .row > .col-11-mobile {
+    .row > .col-11-narrower {
       width: 91.6666666667%;
     }
 
-    .row > .off-11-mobile {
+    .row > .off-11-narrower {
       margin-left: 91.6666666667%;
     }
 
-    .row > .col-12-mobile {
+    .row > .col-12-narrower {
       width: 100%;
     }
 
-    .row > .off-12-mobile {
+    .row > .off-12-narrower {
       margin-left: 100%;
     }
 
@@ -257,5 +258,3 @@
         }
 
 }
-
-/*modules*/ 
