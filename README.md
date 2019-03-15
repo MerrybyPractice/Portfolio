@@ -53,6 +53,8 @@ lost in space Photo by Christopher Burns on Unsplash
 
 Camp Nou, Barcalona, Spain Photo by Efe Kurnaz on Unsplash
 
+Techno Grimior Img Photo by Julius Drost on Unsplash
+
 ---
 
 Number and name of feature: #1 refactor the CSS
@@ -72,6 +74,6 @@ Number and name of feature: #2 Modify Contents
 Estimate of time needed to complete: 1 hour
 
 Start time: 1:03
-Finish time: _____
+Finish time: 1:45
 
-Actual time needed to complete: _____
+Actual time needed to complete: 42 mins
