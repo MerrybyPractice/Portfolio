@@ -45,13 +45,13 @@ Credits:
 
 Image Attribution: 
 
-Portfolio img: taken by LaChele Claypool 
+Portfolio img: taken by LaChele Claypool, in Pikes Place, Seattle, WA
 
 magic and mystic Photo by Tom Quandt on Unsplash
 
 lost in space Photo by Christopher Burns on Unsplash
 
-Camp Nou, Barcalona, Spain Photo by Efe Kurnaz on Unsplash
+Camp Nou, Barcalona, Spain Photo (used for the heading image) by Efe Kurnaz on Unsplash
 
 Techno Grimior Img Photo by Julius Drost on Unsplash
 
