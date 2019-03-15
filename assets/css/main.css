@@ -1,27 +1,123 @@
-@import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
-
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Basic */
-	/*
 
+	html {
+		box-sizing: border-box;
+	}
 
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
 
-*/
-		
-	
+	body {
+		background: #fff;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 19pt;
+		font-weight: 300;
+		line-height: 1.75em;
+		color: #888;
+	}
 
-/*	sup {
+		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
+
+	input, textarea, select {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 19pt;
+		font-weight: 300;
+		line-height: 1.75em;
+		color: #888;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 300;
+		color: #666;
+		line-height: 1.5em;
+	}
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+			color: #333;
+		}
+
+	h2 {
+		font-size: 2em;
+		letter-spacing: -1px;
+	}
+
+		h2.alt {
+			color: #888;
+		}
+
+			h2.alt strong {
+				color: #666;
+			}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+	header {
+		margin: 0 0 2em 0;
+	}
+
+		header > p {
+			margin: 1em 0 0 0;
+		}
+
+	footer {
+		margin: 2em 0 0 0;
+	}
+
+	strong, b {
+		font-weight: 300;
+		color: #666;
+	}
+
+	em, i {
+		font-style: italic;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		outline: 0;
+	}
+
+		a:hover {
+			color: #E27689;
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}
+
+	sub {
+		position: relative;
+		top: 0.5em;
+		font-size: 0.8em;
+	}
+
+	sup {
 		position: relative;
 		top: -0.5em;
 		font-size: 0.8em;
 	}
-*/
+
 	hr {
 		border: 0;
 		border-top: solid 1px #ddd;
@@ -1671,7 +1767,7 @@
 		text-align: left;
 		margin-bottom: 0.5em;
 	}
-/*
+
 	form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
@@ -1694,7 +1790,7 @@
 		-ms-transition: all 0.35s ease-in-out;
 		transition: all 0.35s ease-in-out;
 	}
-*/
+
 		form input[type="text"]:focus,
 		form input[type="email"]:focus,
 		form input[type="password"]:focus,
@@ -1767,7 +1863,7 @@
 		}
 
 /* Button */
-/*
+
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -1791,7 +1887,7 @@
 		-ms-transition: background-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out;
 	}
-*/
+
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -1849,7 +1945,7 @@
 		}
 
 /* Header */
-/*
+
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -1984,13 +2080,13 @@
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 					color: #fff;
 				}
-*/
+
 					#nav ul li a.active span:before {
 						color: #e27689;
 					}
 
 /* Footer */
-/*
+
 	#footer {
 		margin-left: 375px;
 		text-align: center;
@@ -1999,7 +2095,7 @@
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
 	}
-*/
+
 		#footer .copyright {
 			cursor: default;
 			margin: 0;
@@ -2020,7 +2116,7 @@
 				}
 
 /* Main */
-/*
+
 	#main {
 		margin-left: 375px;
 	}
@@ -2033,7 +2129,7 @@
 			text-align: center;
 			background-image: url("images/overlay.png");
 		}
-*/
+
 			#main > section.dark {
 				color: #ddd;
 				color: rgba(255, 255, 255, 0.75);
@@ -2226,14 +2322,14 @@
 			}
 
 		/* Icons */
-/*
+
 			ul.icons a {
 				width: 1.75em;
 				font-size: 1.25em;
 			}
-*/
+
 		/* Header */
-/*
+
 			#header {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -2352,7 +2448,7 @@
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
-*/
+
 		/* Footer */
 
 			#footer {
