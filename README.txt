@@ -1,5 +1,3 @@
-# Portfolio
-
 Prologue by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -40,40 +38,3 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
-
----
-
-Image Attribution: 
-
-Portfolio img: taken by LaChele Claypool 
-
-magic and mystic Photo by Tom Quandt on Unsplash
-
-lost in space Photo by Christopher Burns on Unsplash
-
-Camp Nou, Barcalona, Spain Photo by Efe Kurnaz on Unsplash
-
-Techno Grimior Img Photo by Julius Drost on Unsplash
-
----
-
-Number and name of feature: #1 refactor the CSS
-
-Estimate of time needed to complete: 2 hours
-
-Start time: 9:15
-
-Finish time: 11:40
-
-Actual time needed to complete: 2:25
-
-Break 11:45 to get food
-
-Number and name of feature: #2 Modify Contents
-
-Estimate of time needed to complete: 1 hour
-
-Start time: 1:03
-Finish time: 1:45
-
-Actual time needed to complete: 42 mins
