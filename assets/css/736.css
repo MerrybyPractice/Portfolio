@@ -7,13 +7,14 @@
 
   .container {
     width: 100%;
+    padding: 0 15px 0 15px;
   }
 
-}
+/* layout */ 
+/* modules */
 
 /* section */
 
-@media screen and (max-width: 736px) {
 
   .row {
     display: flex;
@@ -258,4 +259,3 @@
 
 }
 
-/*modules*/ 
