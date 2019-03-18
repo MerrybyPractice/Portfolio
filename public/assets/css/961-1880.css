@@ -13,13 +13,6 @@
 
 }
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
-
-  /* Basic */
-
-    body, input, textarea, select {
-      font-size: 16pt;
-    }
 
 /*layout*/
 
@@ -28,8 +21,13 @@
   .container {
     width: 1200px;
   }
-	/* Header */
-
+  
+  
+  /* Main */
+  #main {
+    margin-left: 300px;
+  }
+/* Header */
   #header {
     width: 300px;
   }
@@ -40,11 +38,9 @@
     margin-left: 300px;
   }
 
-/* Main */
 
-  #main {
-    margin-left: 300px;
-  }
+
+  
 }
 @media screen and (min-width: 961px) and (max-width: 1620px) {
 
@@ -73,6 +69,13 @@
   }
 
 }
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+  /* Basic */
+
+    body, input, textarea, select {
+      font-size: 16pt;
+    }
 
 /*modules*/
 
